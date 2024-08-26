@@ -1,52 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap Buttons</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        .btn-full-width {
-            width: 100%;
-        }
-        .btn-margin {
-            margin: 10px 0;
-        }
-    </style>
+	<link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-
-<div class="container mt-5">
-    <!-- Primary button -->
-    <button id="button-1" class="btn btn-primary btn-margin">Primary Button</button><br>
-    
-    <!-- Outline secondary button -->
-    <button id="button-2" class="btn btn-outline-secondary btn-margin">Outline Secondary Button</button><br>
-    
-    <!-- Success large button -->
-    <button id="button-3" class="btn btn-success btn-lg btn-margin">Success Large Button</button><br>
-    
-    <!-- Danger small button -->
-    <button id="button-4" class="btn btn-danger btn-sm btn-margin">Danger Small Button</button><br>
-    
-    <!-- Warning large full-screen width button -->
-    <button id="button-5" class="btn btn-warning btn-lg btn-full-width btn-margin">Warning Large Full-Width Button</button><br>
-    
-    <!-- Disabled info button -->
-    <button id="button-6" class="btn btn-info btn-margin" disabled>Disabled Info Button</button><br>
-    
-    <!-- Light button -->
-    <button id="button-7" class="btn btn-light btn-margin">Light Button</button><br>
-    
-    <!-- Link button -->
-    <button id="button-8" class="btn btn-link btn-margin">Link Button</button>
-</div>
-
-<!-- Bootstrap JS and dependencies -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	 <div>
+      <button id="button-1" class="btn btn-primary">Primary</button>
+      <button id="button-2" class="btn btn-outline-secondary">secondary</button>
+      <button id="button-3" class="btn btn-success btn-lg">Success</button>
+      <button id="button-4" class="btn btn-danger btn-sm">Danger</button>
+      <button id="button-5" class="btn btn-warning btn-lg vw-100">Warning large screen button</button>
+      <button id="button-6" class="btn btn-info disabled">Info</button>
+      <button id="button-7" class="btn btn-light">Light</button>
+      <a id="button-8" href="#" class="btn btn-link"> Link button</a>
+    </div>
+    <script type="text/javascript" src="./script.js">
+</script>
 
 </body>
+
 </html>
